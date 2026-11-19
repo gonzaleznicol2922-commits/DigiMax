@@ -16,8 +16,8 @@ const COURSES = [
     level: "Intermedio",
     duration: "42 horas",
     lessons: 4,
-    price: 149000,
-    oldPrice: 299000,
+    price: 129000,
+    oldPrice: 199000,
     rating: 4.9,
     reviews: 320,
     teacher: "Carlos Mendoza",
@@ -40,8 +40,8 @@ const COURSES = [
     level: "Avanzado",
     duration: "50 horas",
     lessons: 4,
-    price: 179000,
-    oldPrice: 350000,
+    price: 149000,
+    oldPrice: 200000,
     rating: 4.8,
     reviews: 210,
     teacher: "Dra. Elena Gómez",
@@ -64,8 +64,8 @@ const COURSES = [
     level: "Principiante",
     duration: "24 horas",
     lessons: 3,
-    price: 99000,
-    oldPrice: 180000,
+    price: 69900,
+    oldPrice: 100000,
     rating: 4.7,
     reviews: 185,
     teacher: "Ana María Silva",
@@ -112,7 +112,7 @@ const COURSES = [
   {
     id: "c6", title: "Inglés para Principiantes", cat: "idiomas", catLabel: "Idiomas",
     teacher: "Jessica Londoño", teacherRole: "Docente de inglés certificada",
-    price: 35900, oldPrice: 49900, rating: 4.8, reviews: 110, level: "Principiante",
+    price: 40000, oldPrice: 80000, rating: 4.8, reviews: 110, level: "Principiante",
     duration: "14 horas", lessons: 5, badge: "popular", grad: "grad-5", icon: "🗣️",
     desc: "Comienza a hablar inglés con confianza desde tus primeras clases.",
     longDesc: "Vocabulario esencial, gramática básica y práctica de conversación guiada. Pensado para avanzar a tu propio ritmo con ejercicios cortos y aplicables.",
@@ -153,6 +153,133 @@ const COURSES = [
       {title: "Enfoque y eliminación de distracciones", time: "1h 00min"},
       {title: "Proyecto final: tu plan de 30 días", time: "1h 00min"}
     ]
+  },
+  {
+    id: "c9", title: "Microsoft Word desde cero", cat: "tecnologia", catLabel: "Tecnología",
+    level: "Principiante",
+    duration: "8 horas",
+    lessons: 5,
+    price: 39900,
+    oldPrice: 59900,
+    rating: 4.9,
+    reviews: 85,
+    teacher: "Laura Martínez",
+    teacherRole: "Instructora de ofimática",
+    icon: "📝",
+    grad: "grad-blue",
+    desc: "Aprende a crear documentos profesionales con Word.",
+    longDesc: "Domina Microsoft Word desde cero y crea documentos con excelente presentación.",
+    curriculum: [
+      { title: "Introducción a Word", time: "1h" },
+      { title: "Formato de textos y párrafos", time: "2h" },
+      { title: "Tablas e imágenes", time: "2h" },
+      { title: "Encabezados y diseño", time: "1h" },
+      { title: "Proyecto: documento profesional", time: "2h" }
+    ]
+  },
+  {
+    id: "c10",
+    title: "Microsoft Excel desde cero",
+    cat: "tecnologia",
+    catLabel: "Tecnología",
+    level: "Principiante",
+    duration: "10 horas",
+    lessons: 5,
+    price: 44900,
+    oldPrice: 64900,
+    rating: 4.9,
+    reviews: 92,
+    teacher: "Carlos Ramírez",
+    teacherRole: "Instructor de Excel",
+    icon: "📊",
+    grad: "grad-green",
+    desc: "Aprende fórmulas, tablas y hojas de cálculo.",
+    longDesc: "Desarrolla habilidades para organizar datos y realizar cálculos con Excel.",
+    curriculum: [
+      { title: "Conociendo Excel", time: "1h" },
+      { title: "Celdas, filas y columnas", time: "2h" },
+      { title: "Fórmulas y funciones", time: "3h" },
+      { title: "Tablas y gráficos", time: "2h" },
+      { title: "Proyecto práctico", time: "2h" }
+    ]
+  },
+  {
+    id: "c11",
+    title: "Microsoft PowerPoint profesional",
+    cat: "tecnologia",
+    catLabel: "Tecnología",
+    level: "Principiante",
+    duration: "7 horas",
+    lessons: 5,
+    price: 39900,
+    oldPrice: 59900,
+    rating: 4.8,
+    reviews: 76,
+    teacher: "Laura Martínez",
+    teacherRole: "Instructora de presentaciones",
+    icon: "📽️",
+    grad: "grad-orange",
+    desc: "Diseña presentaciones creativas y profesionales.",
+    longDesc: "Aprende a comunicar ideas mediante presentaciones visuales impactantes.",
+    curriculum: [
+      { title: "Introducción a PowerPoint", time: "1h" },
+      { title: "Diseño de diapositivas", time: "2h" },
+      { title: "Imágenes, videos y animaciones", time: "2h" },
+      { title: "Transiciones y exposición", time: "1h" },
+      { title: "Proyecto final", time: "1h" }
+    ]
+  },
+  {
+    id: "c12",
+    title: "Canva: diseño gráfico desde cero",
+    cat: "diseno",
+    catLabel: "Diseño",
+    level: "Principiante",
+    duration: "8 horas",
+    lessons: 5,
+    price: 42900,
+    oldPrice: 62900,
+    rating: 4.9,
+    reviews: 110,
+    teacher: "Camila Torres",
+    teacherRole: "Diseñadora gráfica",
+    icon: "🎨",
+    grad: "grad-purple",
+    desc: "Crea diseños, publicaciones y piezas publicitarias.",
+    longDesc: "Aprende a utilizar Canva para crear diseños atractivos para redes sociales y proyectos.",
+    curriculum: [
+      { title: "Conociendo Canva", time: "1h" },
+      { title: "Plantillas y herramientas", time: "2h" },
+      { title: "Diseño para redes sociales", time: "2h" },
+      { title: "Presentaciones y publicidad", time: "2h" },
+      { title: "Proyecto de diseño", time: "1h" }
+    ]
+  },
+  {
+    id: "c13",
+    title: "Microsoft Office integral",
+    cat: "tecnologia",
+    catLabel: "Tecnología",
+    level: "Principiante",
+    duration: "25 horas",
+    lessons: 5,
+    price: 79900,
+    oldPrice: 119900,
+    rating: 5.0,
+    reviews: 145,
+    teacher: "Carlos Ramírez",
+    teacherRole: "Especialista en ofimática",
+    icon: "💻",
+    grad: "grad-blue",
+    desc: "Aprende Word, Excel y PowerPoint en un solo curso.",
+    longDesc: "Un recorrido integral por las principales herramientas de Microsoft Office para estudiar y trabajar.",
+    curriculum: [
+      { title: "Introducción a Microsoft Office", time: "2h" },
+      { title: "Word: documentos profesionales", time: "7h" },
+      { title: "Excel: hojas de cálculo y fórmulas", time: "10h" },
+      { title: "PowerPoint: presentaciones", time: "4h" },
+      { title: "Proyecto práctico integral", time: "2h" }
+    ]
   }
 ];
 
@@ -163,6 +290,7 @@ const CATEGORIES = [
   {key: "diseno", label: "Diseño", icon: "🎨", cls: "cat-diseno", count: "2 cursos"},
   {key: "marketing", label: "Marketing", icon: "📣", cls: "cat-marketing", count: "1 curso"},
   {key: "idiomas", label: "Idiomas", icon: "🗨️", cls: "cat-idiomas", count: "1 curso"}
+  {key: "ofimatica", label: "Ofimática y Diseño Digital", icon: "💻", cls: "cat-tech", count: "5 cursos"}
 ];
 
 const LIVE_CLASSES = [
